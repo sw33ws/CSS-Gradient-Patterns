@@ -86,3 +86,28 @@ section.three {
     background-size: 5rem 5rem;
     background-position: 5.25rem 5.25rem, 2.5rem 2.5rem, 2.5rem 2.5rem;
 }
+
+section.four {
+    background-color: #232221;
+    background-image: 
+        radial-gradient(
+            circle at 100% 50%,
+            transparent 1rem,
+            #a1b1c1 1rem,
+            #a1b1c1 1.5rem,
+            transparent 1.5rem
+        ),
+        radial-gradient(
+            circle at 0% 50%,
+            transparent 1rem,
+            #a1b1c1 1rem,
+            #a1b1c1 1.5rem,
+            transparent 1.5rem
+        );
+    background-size: 9rem 5rem;
+    background-position: 0 0, 0 2.5rem;
+}
+
+/* section.five {
+    
+} */
