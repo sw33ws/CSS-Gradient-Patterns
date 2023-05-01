@@ -108,6 +108,21 @@ section.four {
     background-position: 0 0, 0 2.5rem;
 }
 
-/* section.five {
-    
-} */
+section.five {
+    background-color: #313466;
+    background-image: 
+        conic-gradient(
+            from 330deg at 50% 60%,
+            #11ffbb 60deg, 
+            transparent 60deg
+        ),
+        conic-gradient(
+            from 150deg at 50% 30%,
+            #5255bb 60deg, 
+            transparent 60deg
+        );
+    /* background-size: 3rem; */
+    /* you can use just the 3rem to make a line cutting off at the top */
+    background-size: 3rem 3rem;
+    background-position: 0 0, 1.5rem -.5rem;
+}
